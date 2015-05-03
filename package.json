@@ -1,6 +1,6 @@
 {
   "name": "po",
-  "version": "4.5.0",
+  "version": "4.5.1",
   "private": false,
   "description": "po = promiseify + co",
   "scripts": {
