@@ -3,7 +3,9 @@
   "version": "4.5.0",
   "private": false,
   "description": "po = promiseify + co",
-  "scripts": {},
+  "scripts": {
+    "test": "node --harmony ./node_modules/istanbul-harmony/lib/cli.js cover index.js && node --harmony ./node_modules/mocha/bin/_mocha && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+  },
   "preferGlobal": false,
   "bin": {},
   "engines": {
@@ -41,6 +43,12 @@
     "co": "^4.5.2"
   },
   "peerDependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "coveralls": "^2.11.2",
+    "istanbul-harmony": "^0.3.12",
+    "mocha": "^2.2.4",
+    "mocha-istanbul": "^0.2.0"
+  },
   "licenses": "MIT"
 }
