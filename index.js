@@ -1,5 +1,5 @@
 /*!
- * po
+ * po = promiseify + co
  * @author ydr.me
  * @create 2015-05-04 02:11
  */
@@ -9,6 +9,18 @@
 
 var co = require('co');
 
+/**
+ * po = promiseify + co
+ * @param fn {Function} normal fn with callback
+ * @param [ctx=global] {Object|null} normal fn context
+ * @returns {Function} po function
+ *
+ * @example
+ *
+ * var fsReadFile = po(fs.readFile, fs);
+ *
+ * yield fsReadFile('1.md');
+ */
 module.exports = function po(fn, ctx) {
     return function () {
         ctx = ctx || global || window;
