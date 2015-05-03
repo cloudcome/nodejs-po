@@ -1,0 +1,44 @@
+{
+  "name": "po",
+  "version": "0.0.1",
+  "private": true,
+  "description": "package description",
+  "scripts": {},
+  "preferGlobal": false,
+  "bin": {},
+  "engines": {
+    "node": ">= 0.12.0",
+    "iojs": ">= 1.0.0"
+  },
+  "main": "index.js",
+  "keywords": [
+    "po",
+    "co",
+    "coify",
+    "promise",
+    "promiseify",
+    "es6",
+    "generator",
+    "koa",
+    "koajs",
+    "cloudcome",
+    "ydr.me"
+  ],
+  "author": {
+    "name": "cloudcome",
+    "email": "cloudcome@163.com",
+    "url": "http://ydr.me"
+  },
+  "homepage": "https://github.com/cloudcome/nodejs-po",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloudcome/nodejs-po"
+  },
+  "bugs": {
+    "url": "https://github.com/cloudcome/nodejs-po/issues"
+  },
+  "dependencies": {},
+  "peerDependencies": {},
+  "devDependencies": {},
+  "licenses": "MIT"
+}
