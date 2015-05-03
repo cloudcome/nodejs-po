@@ -1,8 +1,8 @@
 {
   "name": "po",
-  "version": "0.0.1",
-  "private": true,
-  "description": "package description",
+  "version": "4.5.0",
+  "private": false,
+  "description": "po = promiseify + co",
   "scripts": {},
   "preferGlobal": false,
   "bin": {},
@@ -37,7 +37,9 @@
   "bugs": {
     "url": "https://github.com/cloudcome/nodejs-po/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "co": "^4.5.2"
+  },
   "peerDependencies": {},
   "devDependencies": {},
   "licenses": "MIT"

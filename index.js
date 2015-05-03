@@ -1,5 +1,5 @@
 /*!
- * 文件描述
+ * po
  * @author ydr.me
  * @create 2015-05-04 02:11
  */
@@ -8,7 +8,8 @@
 'use strict';
 
 var co = require('co');
-var po = function (fn, ctx) {
+
+module.exports = function po(fn, ctx) {
     return function () {
         ctx = ctx || global || window;
 
