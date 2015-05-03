@@ -1,10 +1,11 @@
 {
   "name": "po",
-  "version": "4.5.1",
+  "version": "4.5.2",
   "private": false,
   "description": "po = promiseify + co",
   "scripts": {
-    "test": "node --harmony ./node_modules/istanbul-harmony/lib/cli.js cover index.js && node --harmony ./node_modules/mocha/bin/_mocha && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+    "test": "node --harmony ./node_modules/istanbul-harmony/lib/cli.js cover index.js && node --harmony ./node_modules/mocha/bin/_mocha",
+    "cover": "node --harmony ./node_modules/istanbul-harmony/lib/cli.js cover index.js && node --harmony ./node_modules/mocha/bin/_mocha && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "preferGlobal": false,
   "bin": {},
